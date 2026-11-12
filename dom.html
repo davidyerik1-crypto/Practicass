@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DOM</title>
 </head>
 <body>
-
+    <h1>DOM</h1><br>
+    <p>El DOM (Document Object Model) es una interfaz de programacion que representa la estructura de un documento Modelo de Objetos del documento.<br>
+    Cuando el navegador web lee y analiza una página HTML la convierte en un modelo en memoria organizado como un árbol jerárquico de nodos.</p><br><br><br>
+    <h2>Ejemplo:</h2>
+    <p>Aqui estamos dando una 'id' a una etiqueta 'p' para despues con un script seleccionarlo con .getElemntByID y asi poder editarlo <br>
+    en este caso editarlo para ponerle un estilo, un color amarillo a las letras.</p><br><br>
     <h1 id = "demo">The Document Object</h1>
     <h2>The getElementById() Method</h2>
     <script>
         const myElement = document.getElementById("demo");
-        myElement.style.color = "yellow";
+        myElement.style.color = "red";
     </script>
     
 </body>
